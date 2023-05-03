@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.image-icons {
+  width: 200px;
+  height: 200px;
+}
+
+.books-card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(87, 87, 150);
+  justify-content: space-around;
+
+}
+
+.book-image {
+  width: 200px;
+  height: 200px;
+}
+
+.abstract {
+  width: 400px;
+}
