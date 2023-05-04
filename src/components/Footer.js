@@ -1,13 +1,15 @@
 import React from 'react'
-//import {fontAwesomeIcon} from "@fortawesome/react-fontawesome"
-//import { faHippo} from "@fortawesome/fontawesome-svg-core"
+ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+ import { faFacebookF, faInstagram, faTwitter, faPinterest, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+ import { faBook } from '@fortawesome/free-solid-svg-icons';
+
 import '../css/Footer.css'
 function Footer() {
   return (
     <footer>
         <div className='row'>
             <div className='column'>
-               <img src='' alt='' />
+               <FontAwesomeIcon className='book'icon={faBook}/>
                <p>Let us Give you what you deserve</p>
             </div>
             <div className='column'>
@@ -27,13 +29,17 @@ function Footer() {
             </div>
             <div className='column'>
               <div className='social-icons'>
-                <i className='fab fa-twitter'></i>
-                <i className='fab fa-whatsapp'></i>
-                <i className='fab fa-pinterest'></i>
+                <h3>Socials <div className='underline'><span></span></div></h3>
+                <FontAwesomeIcon className='icon' icon={faTwitter} />
+                <FontAwesomeIcon className='icon' icon={faInstagram}/>
+                <FontAwesomeIcon className='icon' icon={faFacebookF}/>
+                <FontAwesomeIcon className='icon' icon={faPinterest}/>
+                <FontAwesomeIcon className='icon' icon={faWhatsapp}/>
               </div>
             </div>
         </div>
-
+      <hr></hr>
+      <p className='copyright'>MindBenders © 2023 - All rights reserved</p>
     </footer>
   )
 }
