@@ -1,10 +1,11 @@
-import Navbar from "./components/Navbar"
+import Navbar from "./Navbar"
 // import home from "./pages/Pricing"
 // import Home from "./Home"
 // import About from "./About"
 // import Services from "./Services"
 // import Contact from "./Contact"
-// import { Route, Routes } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes> */}
       </div>
+      <Footer />
     </>
   )
 }

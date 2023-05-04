@@ -1,7 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
-import App from "./App"
-import "./nav.css"
+import App from "./components/App"
+import "./css/nav.css"
 import { BrowserRouter } from "react-router-dom"
 
 const root = ReactDOM.createRoot(document.getElementById("root"))

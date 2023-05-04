@@ -4,9 +4,9 @@ function Navbar() {
   return (
     <nav className="nav">
       <Link to="/" className="mind-benders">
-        Mind-Benders Library
+        <b>Mind-Benders Library</b>
       </Link>
-      <ul>
+      <ul className="menu">
         <CustomLink to="/home">Home</CustomLink>
         <CustomLink to="/about">About</CustomLink>
         <CustomLink to="/services">Services</CustomLink>
